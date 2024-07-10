@@ -53,7 +53,7 @@ These explanations are region-specific. Scaling this forecast to other regions m
 
 However, what appears to be a trend could potentially be artifacts. Let's put the different trends observed into perspective by creating more explicit time features and comparing their correlation with CO2 emissions using a boxplot:
 
-![time_component_week](reports\figures\time_features_on_carbon_avg.png)
+![time_component_week](reports/figures/time_features_on_carbon_avg.png)
 
 Comparing the connection between seasonal time trends and "social" time trends  (weekdays) suggests that seasonal variations have a more significant influence. In contrast to seasonal effects, specific weekdays show relatively minor correlations with carbon intensity.
 
@@ -70,7 +70,7 @@ Let's analyze the overall performance of the Prophet model using historical data
 
 The model tends to underestimate actual emissions. Our key metric for evaluation is the absolute percentage difference between our predictions and actual values. Let's zoom in on September 2019 to compare the predicted and actual CO2 emissions:
 
-![september_2019](reports\figures\september_forcast.png)
+![september_2019](reports/figures/september_forcast.png)
 
 As previously mentioned, there is an underestimation of actual CO2 emissions. The distribution of actual emissions suggests a time-related trend that does not strictly follow a calendar pattern. For example, there is a three-day peak observed between September 7th and 10th. Weather phenomena like wind can span multiple days due to atmospheric conditions and physical processes, rather than adhering to arbitrary calendar divisions.
 
