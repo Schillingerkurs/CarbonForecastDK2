@@ -2,7 +2,7 @@
 
 CarbonForecastDK2 forecasts carbon intensity in Eastern Denmark (DK-DK2) for the next 24 hours using Prophet.
 
-Based on this preliminary analysis, I believe that wheatear patterns like wind determine the carbon intensity in Eastern Denmark to a large extend. If I would try to build a perfect estimator for DK-DK2, I would focus on ways to measure wind conditions accurate over time. However, if the goal is to scale up fast to other regions, it might be a better idea to spend not too much resources on wind condition estimations, as the case of DK might be unique,  i.e.  one should explote other factors tha tmight determine carbon emssions to a larger extend in most other regions. For instance, sunshine, industrial production or consumer demand might be such factor. 
+Based on this preliminary analysis, it appears that weather patterns such as wind significantly influence the carbon intensity in Eastern Denmark. If aiming to develop an optimal estimator for DK-DK2, priority should be placed on accurately measuring wind conditions over time. However, for rapid scaling to other regions, it may be more prudent to allocate fewer resources to estimating wind conditions, considering that Denmark's situation could be unique. Instead, exploring other factors that likely play a more substantial role in determining carbon emissions across most regions, such as sunshine, industrial production, or consumer demand, would be advantageous.
 
 ## 1. Defining the Approach and Key Metric
 
