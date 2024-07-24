@@ -105,6 +105,7 @@ The Mean Absolute Percentage Error of this updated model is: **22.37%**.
 The model deployment code is in `src/models/forcast_with_working_model.py`.
 
 
+FastAPI (or Flask)
 
 For practical deployment, a batch process could retrain the model weekly or daily with updated historical data, improving model accuracy over time.
 
@@ -113,6 +114,16 @@ Here's a function to predict the next 24 hours based on 'latest_forecasted_wind_
 # How External Data Could Help to build a Better Model
 
 Using external historic wind data (via APIs like OpenWeather) could improve model performance, replacing linear imputation with actual historical wind production.
+
+
+
+## Wind turbines DK
+
+-  [Example: Rødsand 1 ](https://www.openstreetmap.org/query?lat=54.5521&lon=11.5558#map=15/54.5687/11.5119)
+-  [Details OSM wind turbine tags](https://wiki.openstreetmap.org/wiki/DE:Tag:generator:source%3Dwind)
+-  [Capacity of wind turbines DK ](data/raw/wind_concessions_dk/oversigtstabeller_uk-dk_2.xlsx)
+
+
 
 # Project Organization
 
